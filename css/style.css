@@ -1,0 +1,279 @@
+body{
+	background:url(../images/topbg.jpg) no-repeat center -5px;
+	font-family: 'Roboto', sans-serif;
+  	height: 1054px;
+}
+#header{
+	width:990px;
+	height:100px;
+	margin: 0 auto;
+	position:relative;
+}
+#buttons {
+    color: green;
+    z-index: 6;
+    position: absolute;
+    right:380px;
+	top:10px;
+	font-size: 11px;
+}
+a{
+	color: green;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+}
+#buttonk{
+    padding: 0px 5px 0px 25px;
+    border: 0;
+    z-index: 4;
+}
+#menu_bar{
+	position:absolute;
+	right:10px;
+	bottom:-12px;
+	width: 535px;
+	height: 18px;
+	font-size: 11px;
+}
+ul{
+    list-style-type: none;
+    background-color:white;
+    background-image: linear-gradient(white,#f5f5f5);
+}
+li {
+    float: left;
+  
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 2px 8px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:white;
+    background-image: linear-gradient(#f5f5f5,#eeeeee);
+}
+#home{
+	color: white;
+	background-image: linear-gradient(#bdbdbd,#1b5e20);
+}
+#home:hover{
+	color: black;
+	background-color:white;
+    background-image: linear-gradient(#f5f5f5,#eeeeee);
+}
+#search_form{
+	position:absolute;
+	right:0px;
+	top:10px;
+	font-size: 6px;
+}
+#search_btn{
+	background-color:#1b5e20;
+	background-image: linear-gradient(#bdbdbd,#1b5e20);
+    border: none;
+    color: white;
+    padding: 5px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+}
+#line1{
+	top: 40px;
+    left: 420px;
+    position: absolute;
+    z-index: 10;
+}
+#logo{
+	top: 17px;
+    left: -15px;
+    position: absolute;
+    z-index: 3;
+}
+#slideshow{
+	width:730px;
+	height:300px;
+	margin: 0 auto;
+	position:relative;
+	left:-155px;
+	top: 5px;
+}
+#line2{
+	top: -16px;
+    left: 0px;
+    position: absolute;
+    z-index: -10;
+}
+p.statement{
+	color: #333333;
+	font-size: 10px;
+}
+#photos{
+	height: 270px;
+	width: 730px;
+	box-shadow:3px 7px 4px #888888;
+	top: 5px;
+}
+#blocks{
+	width:730px;
+	height:200px;
+	margin: 0 auto;
+	position:relative;
+	left:-145px;
+	top:20px;
+}
+.deposit{
+	box-shadow:-3px 3px 2px #888888;
+	margin: 0px 10px;
+
+}
+.lease{
+	box-shadow:-3px 3px 2px #888888;
+	margin: 0px 10px;
+}
+.loan{
+	box-shadow:-3px 3px 2px #888888;
+	margin: 0px 10px;
+}
+.micro{
+	box-shadow:-3px 3px 2px #888888;
+	margin: 0px 10px;
+}
+.realestate{
+	box-shadow:-3px 3px 2px #888888;
+	margin: 0px 10px;
+}
+#side_bar{
+	width:275px;
+	height:770px;
+	margin: 0 auto;
+	position:relative;
+	top: -490px;
+	left:380px;
+}
+#news-form{
+	background: no-repeat top left;
+    width: 220px;
+    height: 211px;
+    position: absolute;
+    left: 20px;
+    bottom: 550px;
+}
+#news-form h5{
+	color: white;
+}
+#news-form b{
+	font-size: 14px;
+}
+#news-form small{
+	font-size: 11px;
+}
+#news-form a{
+	font-size: 13px;
+	color: green; 
+	position: absolute;
+	left: 40px;
+}
+
+#newsbg{
+	background: no-repeat top left;
+    width: 250px;
+    height: 211px;
+    position: absolute;
+    left: 0px;
+    bottom: 540px;
+    z-index:-1;
+}
+#line3{
+	transform: rotate(90deg);
+	position:absolute;
+	top: 425px;
+	left:-425px;
+	width: 820px;
+}
+#lease{
+	position: absolute;
+	top:250px;
+	right: 25px;
+}
+#interest{
+	position: absolute;
+	top:400px;
+	right: 25px;
+}
+#interest-btn{
+	position: absolute;
+	top:430px;
+	right: 40px;
+	height: 30px;
+	width: 80px;
+}
+#vehicle{
+	position: absolute;
+	top:540px;
+	right: 25px;
+}
+#content{
+	width:730px;
+	height:200px;
+	margin: 0 auto;
+	position:relative;
+	left:-145px;
+	bottom: 830px;
+}
+.con{
+	position: absolute;
+	bottom: 60px;
+}
+#bglines{
+	background: no-repeat top left;
+	position: relative;
+	width: 100%;
+	bottom: -20px;
+	z-index:-1;
+}
+#content h5{
+	background: no-repeat top left;
+	position: relative;
+	top:20px;
+}
+#content.para{
+	background: no-repeat top left;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+#read_more{
+	background: no-repeat top left;
+	height: 32px;
+	width: 86px;
+	position: absolute;
+	left: 630px;
+	bottom: -3px;
+}
+#footer{
+	width:730px;
+	height:50px;
+	margin: 0 auto;
+	position:relative;
+	left:-145px;
+	bottom: 0px;
+}
+.end{
+	position: relative;
+	top:-800px;
+	width: 600px;
+}
+#line4{
+	position: absolute;
+	top:-800px;
+	width: 737px;
+}
+#footer p{
+	position: relative;
+	bottom: 780px;
+	font-size: 14px;
+}
